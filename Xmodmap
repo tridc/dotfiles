@@ -1,0 +1,26 @@
+!
+! Maps Caps Lock to Ctrl_R
+!
+remove Lock = Caps_Lock
+keysym Caps_Lock = Control_R
+add Control = Control_R
+
+!
+! Maps Ctrl_L to Super_L
+!
+remove Control = Control_L
+!keycode 37 = Super_L
+keysym Control_L = Super_L
+add mod4 = Super_L
+
+!
+! Maps Super_L + hjkluid to arrow keys, home, end, delete
+!
+keycode 133 = Mode_switch
+keysym j = j J Down
+keysym l = l L Right
+keysym h = h H Left
+keysym k = k K Up
+keysym u = u U Home
+keysym i = i I End
+keysym d = d D Delete
