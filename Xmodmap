@@ -24,3 +24,8 @@ keysym k = k K Up
 keysym u = u U Home
 keysym i = i I End
 keysym d = d D Delete
+
+! make Esc be in the grave/tilde key position
+! and grave/tilde be in the place of some redundant key (code 94 here)
+keysym 94 = grave asciitilde
+keysym grave = Escape
