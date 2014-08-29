@@ -14,16 +14,18 @@ keysym Control_L = Super_L
 add mod4 = Super_L
 
 !
-! Maps Super_L + hjkluid to arrow keys, home, end, delete
+! Maps Super_L + alphabet to arrow keys, home, end, delete, pgup, pgdown
 !
 keycode 133 = Mode_switch
-keysym j = j J Down
-keysym l = l L Right
 keysym h = h H Left
+keysym j = j J Down
 keysym k = k K Up
+keysym l = l L Right
 keysym u = u U Home
 keysym i = i I End
-keysym d = d D Delete
+keysym o = o O Delete
+keysym n = n N Next
+keysym m = m M Prior
 
 ! make Esc be in the grave/tilde key position
 ! and grave/tilde be in the place of some redundant key (code 94 here)
