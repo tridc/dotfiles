@@ -1,15 +1,15 @@
 all: install
 
 install:
-	cp -rf vim ~/.vim
-	cp vimrc ~/.vimrc
-	cp tmux.conf ~/.tmux.conf
-	cp Xmodmap ~/.Xmodmap
-	cp compton.conf ~/.compton.conf
+	cp -ri vim/. ~/.vim
+	cp -i vimrc ~/.vimrc
+	cp -i tmux.conf ~/.tmux.conf
+	cp -i Xmodmap ~/.Xmodmap
+	cp -i compton.conf ~/.compton.conf
 
 update:
-	cp -rf ~/.vim vim
-	cp ~/.vimrc vimrc
-	cp ~/.tmux.conf tmux.conf
-	cp ~/.Xmodmap Xmodmap
-	cp ~/.compton.conf compton.conf
+	cp -ri ~/.vim/. vim
+	cp -i ~/.vimrc vimrc
+	cp -i ~/.tmux.conf tmux.conf
+	cp -i ~/.Xmodmap Xmodmap
+	cp -i ~/.compton.conf compton.conf
